@@ -1,0 +1,334 @@
+html{
+	margin:0;
+}
+body {
+	margin:0;
+}
+.rbull{
+	list-style: none;
+	padding:0px;
+}
+/*header*/
+header{
+	height:450px;
+	background:url(../TemplateImages/39H.jpg);
+	background-position:center center;
+	padding:0px;
+	margin:0px;
+}
+header .logo {
+	height:50px;
+	width:50px;
+	background:#999;
+	margin:10px 0 0 30px;
+	float:left;
+}
+header nav {
+	float:right;
+	margin:30px 30px 0 0;
+}
+header a {
+	display:inline-block;
+	color:#FFF;
+	margin-left:20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	float:right;
+}
+header a:hover{
+	color: rgba(0,0,0, 1);
+	background-color:#FFF;
+}
+header h1 {
+	text-align:center;
+	font-size:72px;
+	font-weight:700;
+	color:#FFF;
+	text-transform:uppercase;
+	letter-spacing: .05em;
+	margin: 150px auto 20px auto;
+	clear:both;
+	padding-top:100px;
+}
+header span{
+	display:inline-block;
+	padding:.2em .5em;
+	border:10px solid #FFF;
+}
+header .subtitle {
+	text-align:center;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:.025em;
+	color:#FFF;
+	line-height:1;
+}
+/*end header*/
+/*profile*/
+.profile {
+	height:1000px;
+	background:#FFF;
+	padding:0;
+	margin:0;
+	text-align: center;
+}
+.profile .protitle{
+	text-align:center;
+	margin-top:0;
+	padding-top:50px;
+}
+.profile .sec1{
+	display:inline-block;
+	text-align: center;
+	margin:auto;
+	clear:left;
+}
+.profile .know {
+	display:inline-block;
+	float:left;
+	margin:10px 50px 10px auto;
+}
+.profile .faceshot{
+	display:inline-block;
+	width:180px;
+	height:200px;
+	float:left;
+	background:#ccc;
+	margin:10px 20px 10px 20px;
+}
+.profile .learn{
+	display:inline-block;
+	float: left;
+	margin:10px auto 10px 50px;
+}
+.profile .paragraph {
+	max-width:600px;
+	display:block;
+	text-align: center;
+	margin:40px auto 40px auto;
+	float:center;
+}
+.profile .contact {
+	text-align: center;
+}
+.profile .smallstyle{
+}
+/*skills bar*/
+.profile .skill-lockup{
+	max-width:700px;
+	margin:100px auto;
+	color:#999;
+}
+.profile .skill-unit{
+	width:50%;
+	float:left;
+}
+.profile .skill-icon {
+	font-size:0;
+	margin-bottom:30px;
+}
+.profile .skill-icon span{
+	display:inline-block;
+	height:15px;
+	width:15px;
+	background-color: #66a3ff;
+;
+}
+.profile .skill-1 span:nth-child(n+2){
+	background: #000;
+}
+.profile .skill-2 span:nth-child(n+3){
+	background: #000;
+}
+.profile .skill-3 span:nth-child(n+4){
+	background: #000;
+}
+.profile .skill-4 span:nth-child(n+5){
+	background: #000;
+}
+.profile .skill-5 span:nth-child(n+6){
+	background: #000;
+}
+.profile .skill-6 span:nth-child(n+7){
+	background: #000;
+}
+.profile .skill-7 span:nth-child(n+8){
+	background: #000;
+}
+.profile .skill-8 span:nth-child(n+9){
+	background: #000;
+}
+.profile .skill-9 span:nth-child(n+10){
+	background: #000;
+}
+/*end skills bar*/
+/*end profile*/
+/*work section*/
+.work {
+	text-align: center;
+	background:#e6e6e6;
+}
+.work h3 {
+	margin:0 0 40px 0;
+	text-align: center;
+	color:#000;
+	padding-top: 100px;
+}
+.work a{
+	margin:0;
+}
+.work .piccontainer{
+	margin:auto;
+	display: inline-block;
+}
+.work .picunit{
+	text-decoration: none;
+	color: #000;
+	float:left;
+	margin: 0px 10px 50px 10px;
+	clear:both;
+}
+.work .picsize{
+	height:300px;
+	width:300px;
+}
+.work .under{
+	display: block;
+}
+.work .github{
+	text-decoration: none;
+	color: black;
+	float: left;
+	border:3px solid black;
+	margin:0px 10px 20px 10px;
+	width:300px;
+	height:75px;
+	background-color:#66a3ff;
+	padding-top: 15px;
+	letter-spacing: .1em;
+}
+.work p{
+	max-width:500px;
+	font-size: 140%;
+	border: 3px solid black;
+	float:left;
+	margin:0 10px 50px 10px;
+}
+/*end work section*/
+/*contact me */
+.contact {
+	text-align: center;
+ 	background:#FFF; 
+}
+.contact a{
+	display:inline-block;
+	text-decoration: none;
+	width:70px;
+	height:70px;
+	margin:0;
+	padding: 50px 25px 40px 25px;
+	font-size: 0;
+}
+.contact .facebook{
+	background:url(../Templateimages/facebook.jpg);
+	background-position: center center;
+	background-size: 70px;
+	background-repeat: no-repeat;
+}
+.contact .twitter{
+	background:url(../Templateimages/twitter.jpg);
+	background-position: center center;
+	background-size: 70px;
+	background-repeat: no-repeat;
+}
+.contact .instagram{
+	background:url(../Templateimages/instagram.jpg);
+	background-position: center center;
+	background-size: 140px;
+	background-repeat: no-repeat;
+}
+.contact .patreon{
+	background:url(../Templateimages/patreon.jpg);
+	background-position: center center;
+	background-size: 70px;
+	background-repeat: no-repeat;
+}	
+.contact .e-mail{
+	display: block;
+	text-align: center;
+}
+.contact h3{
+	margin:0 auto auto auto;
+	max-width:240px;
+	font-size: 200%;
+	text-align: center;
+	font-weight: 700px;
+	letter-spacing: .1em;
+	color:#00004d;
+	border-top:3px solid #00004d;
+	padding-top:30px;
+}
+.contact h1{
+	display:block;
+	font-size: 250%;
+	font-weight: 700px;
+	letter-spacing: .15em;
+	color:#00004d;
+}
+/*end contact me*/
+/*footer*/
+footer{
+	background:#ccc;
+	background:url(../TemplateImages/39H.jpg);
+	background-position:right;
+	background-repeat: no-repeat;
+	height:150px;
+	margin:auto;
+}
+/*logo for furure use*/
+footer .logo {
+	height:50px;
+	width:50px;
+	background:#999;
+	float:left;
+	margin:50px 20px 0px 20px;
+}
+footer .contentwrap{
+	float:left;
+}
+footer nav a{
+	display:inline-block;
+	text-decoration:none;
+	color:#FFF;
+	margin:50px 10px 0px 10px;
+}
+footer nav a:hover{
+	background-color:#FFF;
+	color:#000;
+}
+footer .copyright {
+	margin: 20px 10px 0px 10px;
+	color:#FFF;
+}
+
+/*end footer*/
+/* clear fix */
+
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+/* end clear fix */
